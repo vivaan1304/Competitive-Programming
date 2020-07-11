@@ -1,3 +1,8 @@
+/*
+When we want range updates and point queries on a BIT use the trick add(l,x) and add (r+1,-x) to update range and sum(x) for point query at position x.
+Linerise the given tree to form a array.
+*/
+
 #include <algorithm>
 #include <bitset>
 #include <cassert>
