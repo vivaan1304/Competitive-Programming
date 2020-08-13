@@ -7,4 +7,8 @@ A) Tree Range updates and point query
     https://github.com/wwe123456789/Competitive-Programming/blob/master/USACO/Maxflow.cpp
 B) Enumerate over all submasks in O(3^n)
     https://cp-algorithms.com/algebra/all-submasks.html
-    
+C) Tree Range query and point updates
+    1) sum,min,max nodes of path b/w u and v
+    2) increase value of node u by some value
+    Soln:
+    https://codeforces.com/blog/entry/78564#comments
