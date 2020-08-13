@@ -1,0 +1,10 @@
+
+A) Tree Range updates and point query
+    1) increase nodes on path b/w u and v by 1
+    2) print value of node u
+    Soln:
+    https://github.com/wwe123456789/Competitive-Programming/blob/master/USACO/Runaway.cpp
+    https://github.com/wwe123456789/Competitive-Programming/blob/master/USACO/Maxflow.cpp
+B) Enumerate over all submasks in O(3^n)
+    https://cp-algorithms.com/algebra/all-submasks.html
+    
