@@ -67,19 +67,17 @@ void bellman(){
 			}
 		}
 	}
-	for(int i = 2;i<=n;i++){
-		for(auto p:ed){
-			int u = p.f.f;
-			int v = p.f.s;
-			int d = p.s;
-			if(dis[v] > dis[u] + d){
-				neg[v] = true;
-			}
-			if(neg[u])
-				neg[v]=1;
+	for(auto p:ed){
+		int u = p.f.f;
+		int v = p.f.s;
+		int d = p.s;
+		if(dis[v] > dis[u] + d){
+			neg[v] = true;
 		}
+		if(neg[u])
+			neg[v]=1;
 	}
-	if(neg[n]){
+	if(neg[1] || neg[n]){
 		cout << "inf\n";
 		return;
 	}
