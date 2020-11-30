@@ -14,3 +14,12 @@ C) Tree Range query and point updates
     https://codeforces.com/blog/entry/78564#comments
 D) Monotonic queue to do min and max queries in a sliding window sort of approach o(N) ammortized:
     https://dunjudge.me/analysis/submissions/797234/
+E) offline queries trick : read the editorial but i could use some more problems requiring ofline queries. 
+    The main trick i learnt is that we can sort queries by their right endpoint and that basically means like we 
+    traverse the array from left to right and consider all the queries with right endpoint = i.
+    So in this problem we could store last[val] which basically means last index in 1...i where a[last[val]] = val.
+    So for some a[i] if last[a[i]] != -1 we could set last[a[i]] to i and set the segment at last[a[i]] to 0 and then
+    just take RSQ's. 
+    https://atcoder.jp/contests/abc174/tasks/abc174_f
+
+    
