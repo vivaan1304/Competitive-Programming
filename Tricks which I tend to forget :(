@@ -12,3 +12,5 @@ C) Tree Range query and point updates
     2) increase value of node u by some value
     Soln:
     https://codeforces.com/blog/entry/78564#comments
+D) Monotonic queue to do min and max queries in a sliding window sort of approach o(N) ammortized:
+    https://dunjudge.me/analysis/submissions/797234/
